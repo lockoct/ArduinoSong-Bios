@@ -40,14 +40,13 @@ int tune[] = {/**/
   NTC6,NTAH5,NTF6,NTAH5,NTDH6,NTF6,NTAH5,NTF6,NTAH5,
   NTC6,NTAH5,NTF6,NTAH5,NTDH6,NTF6,NTAH5,NTF6,NTAH5,
   NTC6,NTAH5,NTF6,NTAH5,NTDH6,NTF6,NTAH5,NTF6,NTAH5,NTF6,NTAH6,PAUSE,
-
+  
 	NTC6,NTDH6,NTF6,NTC6,NTDH6,NTF6,NTG6,NTAH6,NTC7,NTF6, //ei~
 	NTDH6,NTD6,NTC6,PAUSE,NTC6,NTAH5,NTDH6,NTD6,NTF6,NTC6,PAUSE,NTC6,NTG6,NTC6,PAUSE,NTAH5,PAUSE, //~ei
   NTC6,NTG6,NTF6,NTG6,PAUSE,NTDH6,PAUSE,NTD6,NTDH6,NTF6,NTD6,PAUSE, //die Ruinenstadt ist immer noch schön
   NTC6,NTG6,NTF6,NTG6,PAUSE,NTDH6,PAUSE,NTD6,NTDH6,NTF6,NTD6,NTC6,PAUSE, //ich warte lange Zeit auf deine Rückkehr
   NTAH5,NTDH6,NTD6,PAUSE, //in der Hand
   NTD6,NTDH6,NTF6,PAUSE,NTC6,PAUSE,NTC6,PAUSE,//ein Vergissmeinnicht
-  
   
   NTC6,NTC7,NTB6,NTC7,NTG6,NTC6,NTA6,NTG6,PAUSE, //Regentropfen sind meine Tränen
   NTC6,NTC7,NTB6,NTC7,NTG6,NTE6,NTA6,PAUSE,NTA6,NTB6,NTG6,PAUSE, //Wind ist mein Atem und mein Erzählung
@@ -62,12 +61,12 @@ int tune[] = {/**/
   NTG6,NTF6,PAUSE,NTF6,NTDH6,NTD6,PAUSE,NTD6,NTDH6,NTD6,NTAH5,PAUSE,//an dein Wort,das du mir gegeben hast
   NTAH5,NTC6,NTDH6,NTF6,NTAH5,PAUSE,NTAH5,NTC6,NTDH6,NTF6,NTAH5,PAUSE, //erinnerst du dich noch*2
   NTG6,NTF6,PAUSE,NTF6,NTDH6,NTD6,PAUSE,NTD6,NTDH6,PAUSE, //erinnerst du dich noch an den Tag,an dem du mir
-
+  
   NTAH6,NTC7,NTAH6,NTG6,NTAH6,PAUSE,NTDH6,PAUSE,NTDH6,NTF6,NTG6,NTC7,NTAH6,PAUSE, //wenn die Jahreszeit des Vergissmeinnichts kommt
   NTG6,NTAH6,PAUSE,NTAH6,NTG6,NTAH6,PAUSE,NTDH6,NTD6,NTDH6,NTF6,NTG6,NTAH6,PAUSE, //singe ich ein Lied
   NTAH6,NTC7,NTAH6,NTG6,NTAH6,PAUSE,NTDH6,PAUSE,NTDH6,NTF6,NTG6,NTC7,NTD7,PAUSE, //wenn die Jahreszeit des Vergissmeinnichts kommt
   NTG6,NTAH6,NTDH7,NTD7,NTAH6,PAUSE, //rufe ich dich
- 
+  
 };
 
 const float duration[] PROGMEM = {/**/
@@ -86,11 +85,10 @@ const float duration[] PROGMEM = {/**/
   0.5  ,0.5  ,0.5  ,0.5  ,0.3  ,0.8  ,0.3  ,0.8  ,0.8  ,0.7  ,0.7  ,0.7  ,2    , //ich warte lange Zeit auf deine Rückkehr
   0.6  ,0.6  ,1.2  ,1.6  , //in der Hand
   0.6  ,0.6  ,0.6  ,0.1  ,0.7  ,0.05 ,1.5  ,3    ,//ein Vergissmeinnicht
-  
 
   0.6  ,0.5  ,1    ,1    ,0.8  ,0.7  ,0.6  ,2    ,0.8   ,//Regentropfen sind meine Tränen
   0.7  ,0.6  ,1    ,1    ,0.7  ,0.7  ,0.7  ,0.05 ,0.6  ,0.6  ,1.5  ,0.8  , //Wind ist mein Atem und mein Erzählung
-  0.6  ,0.05 ,0.6  ,0.6  ,0.05 ,0.6  ,0.6  ,0.05 ,1.2  ,0.1  ,0.7  ,0.7  ,0.8  ,0.8  ,0.8  ,1    ,//Zweige und Blätter sind meine Hände
+  0.6  ,0.05 ,0.6  ,0.6  ,0.05 ,0.6  ,0.6  ,0.05 ,1.2  ,0.1  ,0.7  ,0.7  ,0.8  ,0.8  ,1    ,//Zweige und Blätter sind meine Hände
   0.8  ,0.6  ,0.05 ,0.6  ,0.6  ,0.05 ,0.6  ,0.6  ,0.05 ,1.2  ,0.1  ,0.7  ,0.6  ,2    ,0.8  ,//denn mein Körper ist in Wurzeln gehüllt
   0.7  ,0.6  ,1    ,1    ,0.8  ,0.7  ,0.6  ,0.05 ,0.6  ,2    ,0.8  , //wenn die Jahreszeit des Tauens kommt
   0.7  ,0.6  ,1    ,1    ,0.8  ,0.7  ,0.6  ,0.05 ,1.5  ,2    ,0.8  , //werde ich wach und singe ein Lied
@@ -100,13 +98,13 @@ const float duration[] PROGMEM = {/**/
   1    ,1    ,1    ,0.6  ,0.5  ,0.05 ,1    ,1    ,0.6  ,0.5  ,0.5  ,0.5  ,//erinnerst du dich noch*2
   1    ,0.8  ,0.1  ,0.8  ,0.6  ,0.6  ,0.1  ,0.7  ,1    ,1    ,0.7  ,0.5  ,//an dein Wort,das du mir gegeben hast
   1    ,1    ,1    ,0.6  ,0.5  ,0.05 ,1    ,1    ,0.6  ,0.5  ,0.5  ,0.5  ,//erinnerst du dich noch*2
-  1    ,0.8  ,0.1  ,0.8  ,0.7  ,0.6  ,0.05 ,0.6  ,2    ,//erinnerst du dich noch an den Tag,an dem du mir
-
+  1    ,0.8  ,0.1  ,0.8  ,0.7  ,0.6  ,0.05 ,0.6  ,0.6  ,2    ,//erinnerst du dich noch an den Tag,an dem du mir
+  
   0.6  ,0.6  ,1.5  ,0.6  ,1.1  ,0.7  ,0.5  ,0.05 ,0.6  ,0.6  ,0.6  ,0.6  ,0.6  ,0.5  ,//wenn die Jahreszeit des Vergissmeinnichts kommt
   0.6  ,0.5  ,0.05 ,1.5  ,0.6  ,1.2  ,0.2  ,0.6  ,0.6  ,0.6  ,0.6  ,0.6  ,0.6  ,0.7  ,//singe ich ein Lied
   0.6  ,0.6  ,1.5  ,0.6  ,1.1  ,0.7  ,0.5  ,0.05 ,0.6  ,0.6  ,0.6  ,0.6  ,0.6  ,0.5  ,//wenn die Jahreszeit des Vergissmeinnichts kommt
   0.6  ,0.6  ,2    ,2    ,2    ,1    ,//rufe ich dich
- 
+  
 };
 
 void setup() {
